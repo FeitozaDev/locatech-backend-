@@ -59,7 +59,7 @@ public class VeiculoController {
     @PutMapping("/{id}")
     public ResponseEntity<Void> updateVeiculo(
 
-            @PathVariable("id") Long id,
+            @PathVariable("id") long id,
             @RequestBody Veiculo veiculo
     ) {
         logger.info("PUT ->/veiculos/" + id);

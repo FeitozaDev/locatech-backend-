@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 
 public class Veiculo {
 
-    private long id;
+    private Long id;
     private String marca;
     private String modelo;
     private String placa;
