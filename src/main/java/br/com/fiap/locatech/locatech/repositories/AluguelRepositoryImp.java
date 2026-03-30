@@ -1,25 +1,16 @@
 package br.com.fiap.locatech.locatech.repositories;
-
-
 import br.com.fiap.locatech.locatech.entities.Aluguel;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 import java.util.Optional;
-
 @Repository
 
-
 public class AluguelRepositoryImp implements AluguelRepository {
-
     private final JdbcClient jdbcClient;
-
     public AluguelRepositoryImp(JdbcClient jdbcClient) {
         this.jdbcClient = jdbcClient;
     }
-
-
 
 
     @Override
